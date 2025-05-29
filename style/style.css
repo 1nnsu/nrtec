@@ -322,6 +322,9 @@ section.sec7 ul li {  }
 section.sec7 ul li .item  {  }
 section.sec7 ul li .item .sec7_img {  }
 
+
+
+
 @media screen and (max-width: 1250px) {
     section.sec7 { padding: 18vw 0; }
     section.sec7 .title { font-size: 34px; }
