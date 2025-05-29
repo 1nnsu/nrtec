@@ -22,6 +22,7 @@ const rightMenuSlide =() => {
     })
 }
 
+
 // 윈도우가 리사이즈 될때 반응형 !
 $(window).resize(function() {
 	if($(window).width() < 900) {
