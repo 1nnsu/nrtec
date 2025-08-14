@@ -33,7 +33,7 @@
 }
 
 /* 게시판 공통 */
-.boardArti{ padding: 100px 0; }
+.boardArti{ padding: 50px 0; }
 
 /* 게시판 타이틀 */
 .boardArti .boardBanner{ margin-bottom: 50px; text-align: center; }
@@ -154,6 +154,20 @@
 .boardViewArti .prevNextArti .item .label{ padding: 16px; width: 120px; background-color: #F7F7F7; font-size: 0.9em; flex-shrink: 0; }
 .boardViewArti .prevNextArti .item .titleBox{ padding: 16px; display: flex; align-items: center; overflow: hidden;  }
 .boardViewArti .prevNextArti .item .titleBox a{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } 
+
+.boardArti h1{ font-size: 24px; margin: 16px 0; font-weight: 700; }
+.boardArti h2{ font-size: 18px; margin: 16px 0; font-weight: 700; }
+.boardArti h3{ font-size: 18px; margin: 16px 0; font-weight: 700; }
+.boardArti h4{ font-size: 14px; margin: 16px 0; font-weight: 700; }
+.boardArti h5{ font-size: 12px; margin: 16px 0; font-weight: 700; }
+.boardArti h6{ font-size: 11px; margin: 16px 0; font-weight: 700; }
+
+.boardArti .viewContent{ line-height: 1.5em; font-size: 12px; }
+.boardArti .viewContent ul, 
+.boardArti .viewContent dl, 
+.boardArti .viewContent dt, 
+.boardArti .viewContent dd{ list-style:inside; }
+.boardArti .viewContent strong{ font-weight: 800; }
 
 @media screen and (max-width: 500px) {
     .boardViewArti .prevNextArti .item .label{ padding: 10px; }

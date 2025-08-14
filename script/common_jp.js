@@ -4,8 +4,9 @@
 document.addEventListener("DOMContentLoaded", function(e){
     animationOnHandler();
     headerScrollHandler();
-    // bodyScroll();
+    bodyScroll();
     privacyUsePopup();
+    scroll_move();
 })
 document.addEventListener("scroll", function(){
     animationOnHandler();
@@ -29,6 +30,17 @@ const privacyUsePopup = () => {
         e.stopPropagation()
     })
 }
+
+const scroll_move = () => {
+    $(".scroll_move").click(function(e){  
+        var header_height = $('header').outerHeight(true);
+        e.preventDefault();       
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - header_height}, 1000);
+        $('.close-menu-bg').removeClass('show');
+        $('.right-slide-menu').removeClass('show');
+    });
+}
+
 const bodyScroll = () => {
     gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 
@@ -69,7 +81,7 @@ const animationOnHandler = () => {
                 }
             });
         }, {
-            threshold: 0.3 // Adjust threshold as needed
+            threshold: 0.1 // Adjust threshold as needed
         });
         
         // Observe each .ani element
