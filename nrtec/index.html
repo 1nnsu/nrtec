@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--스타일-->
+        <link rel="stylesheet" href="./style/default.css">
+        <link rel="stylesheet" href="./style/font.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/swiper.min.css">
+        <link rel="stylesheet" href="./style/animation.css">
+        <link rel="stylesheet" href="./style/customBoard.css">
+        <!--스크립트-->
+        <script type="text/javascript" src="./script/script.js"></script>
+        <script type="text/javascript" src="./script/swiper.min.js"></script>
+        <script type="text/javascript" src="./script/customBoard.js"></script>
+        <script type="text/javascript" src="./script/common_jp.js"></script>
+        <!-- 패럴렉스 -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="inner">
+                <a href="./index.html">
+                    <img src="./img/header/logo.png" alt="헤더로고" class="header_logo">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html#menu1" class="sroll_move">솔루션 안내</a></li>
+                        <li><a href="./index.html#menu2" class="sroll_move">주요실적</a></li>
+                        <li><a href="./index.html#menu3" class="sroll_move">분야안내</a></li>
+                        <li><a href="./index.html#menu4" class="sroll_move">도장건조 원리</a></li>
+                        <li class="btn_list">
+                            <a href="tel:055-720-7056">
+                                <button class="call_btn">
+                                    <img src="./img/header/icon1.png" alt="전화" class="call_icon">
+                                    055-720-7056
+                                </button>
+                            </a>
+                            <a href="http://nrtec.co.kr/" target="_blank">
+                                <button class="go_btn">
+                                    <img src="./img/header/icon2.png" alt="바로가기" class="go_icon">
+                                    홈페이지 바로가기
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="./img/header/menu_wh.png" alt="" class="menu_wh">
+            </div>
+        </header>
+        <!-- 서브 메뉴 -->
+        <div class="sub_menu_dim"></div>
+        <div class="sub_menu">
+            <div class="sub_div">
+                <div class="box">
+                    <a href="./index.html">
+                        <img src="./img/header/logo.png" alt="" class="subLogo">
+                    </a>
+                </div>
+                <img src="./img/header/menu_close.png" alt="" class="menu_close">
+                <ul>
+                    <li><a href="./index.html#menu1" class="scroll_move">솔루션 안내</a></li>
+                    <li><a href="./index.html#menu2" class="scroll_move">주요실적</a></li>
+                    <li><a href="./index.html#menu3" class="scroll_move">분야안내</a></li>
+                    <li><a href="./index.html#menu4" class="scroll_move">도장건조 원리</a></li>
+                </ul>
+                <div class="sub_btn_div">
+                    <a href="tel:055-720-7056">
+                        <button class="call_btn">
+                            <img src="./img/header/icon1.png" alt="전화" class="call_icon">
+                            055-720-7056
+                        </button>
+                    </a>
+                    <a href="http://nrtec.co.kr/" target="_blank">
+                        <button class="go_btn">
+                            <img src="./img/header/icon2.png" alt="바로가기" class="go_icon">
+                            홈페이지 바로가기
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 서브 메뉴 -->
+        <main id="smooth-wrapper" class="">
+            <article id="smooth-content">
+                <section class="sec1 ani" id="menu1">
+                    <div class="sec1_div">
+                        <div class="box box2 ani">
+                            <div class="item">
+                                <div class="textBox">
+                                    <p class="text text_1">
+                                        하루라도 빨리 설치할수록,  가스 사용량 많을수록,
+                                    </p>
+                                    <p class="text text_2">
+                                        더 효과적인 ‘에너지 사용 비용’ <br>
+                                        절감 솔루션
+                                    </p>
+                                </div>
+                                <img src="./img/main/sec1/img2.jpg" alt="" class="box1_img img">
+                                <div class="content">
+                                    = 년 <br>
+                                    <span class="orange"> 3,500<b> 만원</b></span> 절감 효과
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box1 ani">
+                            <div class="item">
+                                <div class="textBox">
+                                    <p class="text text_1">
+                                        탄소 감축을 위해 노력하는 ㈜엔알텍 <br>
+                                        ‘원적외선 복사파 도장건조 설비’
+                                    </p>
+                                    <p class="text text_2">
+                                        온실가스(Co2) 저감 솔루션
+                                    </p>
+                                </div>
+                                <img src="./img/main/sec1/img1.jpg" alt="" class="box1_img img">
+                                <div class="content">
+                                    = 년 89.553 [tCO2eq] <br>
+                                    <span class="orange">32% </span> 절감 효과
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec2 ani">
+                    <div class="inner">
+                        <div class="sec2_div">
+                            <img src="./img/main/sec2/img1.png" alt="" class="sec2_img img">
+                            <ul>
+                                <li>
+                                    <p class="text_1">정부,탄소 배출량 43 <b>%</b>  감축 목표 승인 !</p>
+                                    <div class="imgBox">
+                                        <img src="./img/main/sec2/img2.jpg" alt="" class="sec2_img2">
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="text_1">정부, 도시가스 요금 10 <b>%</b>  인상 결정 !</p>
+                                    <div class="imgBox">
+                                        <img src="./img/main/sec2/img3.jpg" alt="" class="sec2_img2">
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="text_1">산업용 도시가스 3배 상승 !</p>
+                                    <div class="imgBox">
+                                        <img src="./img/main/sec2/img4.jpg" alt="" class="sec2_img2">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec3 ani" id="menu2">
+                    <div class="inner">
+                        <p class="title">
+                            '업종별, 건조로 타입별' <span class="orange"> 주요실적</span>
+                        </p>
+                        <ul class="ani">
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img1.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 산업용품</p>
+                                    <p class="text_2">
+                                        - 주생산품: 전기모터 <br>
+                                        - 설비유형: Conveyor(개별 이동건조룸) <br>
+                                        - 에너지 사용 절감률: 열풍▶원적외선 57% <br>
+                                        - 건조시간: 50분▶30분
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img2.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 전자부품</p>
+                                    <p class="text_2">
+                                        - 주생산품: 공작기계부품<br>
+                                        - 설비유형: Conveyor(개별 이동건조룸)<br>
+                                        - 에너지 사용 절감률: 열풍▶원적외선 40%<br>
+                                        - 건조시간: 40분▶20분
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img3.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 중장비부품</p>
+                                    <p class="text_2">
+                                        - 주생산품: 유압 실린더<br>
+                                        - 설비유형: Conveyor(개별 이동건조룸)<br>
+                                        - 에너지 사용 절감률: 열풍▶원적외선 85%<br>
+                                        - 건조시간: 50분▶30분
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img4.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 조선 기자재</p>
+                                    <p class="text_2">
+                                        - 주생산품: 선박용 윈치<br>
+                                        - 설비유형: Batch(일괄 동시건조룸)<br>
+                                        - 에너지 사용 절감률: 열풍▶원적외선 72%<br>
+                                        - 건조시간: 4시간▶2시간
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img5.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 항공부품</p>
+                                    <p class="text_2">
+                                        - 주생산품: 항공용파이프<br>
+                                        - 설비유형: Conveyor(개별 이동건조룸)<br>
+                                        - 에너지 사용 절감률: 열풍▶원적외선 64%<br>
+                                        - 건조시간: 50분▶30분
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img6.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 조선기자재</p>
+                                    <p class="text_2">
+                                        - 주생산품: 조선용 밸브<br>
+                                        - 설비유형: Batch(일괄 동시건조룸)<br>
+                                        - 에너지 사용 절감률: 열풍▶원적외선 52%<br>
+                                        - 건조시간: 4시간▶2시간
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img7.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 자동차 부품</p>
+                                    <p class="text_2">
+                                        - 주생산품: 사이드미러 커버<br>
+                                        - 설비유형: Conveyor(개별 이동건조룸)<br>
+                                        - 에너지 사용 절감률: 전기히터▶원적외선 45%<br>
+                                        - 건조시간: 100분▶60분
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="item ani">
+                                    <img src="./img/main/sec3/img8.png" alt="" class="sec3_img">
+                                    <p class="text_1">업종 : 철도[수용성 페인트의 적용효과]</p>
+                                    <p class="text_2">
+                                        - 주생산품: 철도차량 정비<br>
+                                        - 설비유형: Batch(이동형 건조기)<br>
+                                        - 에너지 사용 절감률: 전기히터▶원적외선 89% <br>
+                                        - 건조시간: 240분▶20분
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="sec4 ani" id="menu3">
+                    <div class="inner">
+                        <div class="sec4_div">
+                            <div class="item">
+                                <p class="text_1">
+                                    제조업 22년인 엔알텍의 자체 공장에서 사용하고 있는 <br>
+                                    <span class="blue">원적외선 도장 건조 시스템 기술</span>을
+                                </p>
+                                <p class="text_2">
+                                    <span class="orange">'분체/액체도장 설비' 작업장을 운영</span> 하고 계시는 회사와 <br>
+                                    공유하고 싶습니다.
+                                </p>
+                                <p class="text_3">
+                                    엔알텍은 원적외선 복사파 도장건조기술을 산업용품, 항공, 중장비, 조선기자재, 자동차 부품에 적용하였고, <br>
+                                    <span class="orange">분체/액체 도료가 부착된 모든 제품에 적용 가능</span>합니다.
+                                </p>
+                            </div>
+                            <!-- <div class="item2">
+                                <ul>
+                                    <li>
+                                        <img src="./img/main/sec4/img1.png" alt="" class="sec4_img img">
+                                    </li>
+                                    <li>
+                                        <img src="./img/main/sec4/img2.png" alt="" class="sec4_img img">
+                                    </li>
+                                    <li>
+                                        <img src="./img/main/sec4/img3.png" alt="" class="sec4_img img">
+                                    </li>
+                                    <li>
+                                        <img src="./img/main/sec4/img4.png" alt="" class="sec4_img img">
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <img src="./img/main/sec4/img5.png" alt="" class="sec4_img2 img pc">
+                        <img src="./img/main/sec4/img5_1.png" alt="" class="sec4_img2 img mo">
+                    </div>
+                </section>
+                <section class="sec5" id="menu4">
+                    <div class="inner">
+                        <div class="sec5_title">
+                            열풍 바람으로 날리는 돈? <span class="yellow">원적외선으로 매년 6,000만원</span> 지키세요!
+                        </div>
+                        <div class="item ani">
+                            <p class="text_1">원적외선 복사파 건조설비 VS 열풍 대류 건조설비 차이</p>
+                            <div class="imgBox">
+                                <img src="./img/main/sec5/img1.png" alt="" class="sec5_img img">
+                            </div>
+                        </div>
+                        <div class="item ani">
+                            <p class="text_1">원적외선 복사파를 활용한 도장건조 원리</p>
+                            <div class="imgBox">
+                                <img src="./img/main/sec5/img2.png" alt="" class="sec5_img img">
+                            </div>
+                        </div>
+                        <div class="item ani">
+                            <img src="./img/main/sec5/img3.png" alt="" class="sec5_img img">
+                        </div>
+                        <div class="item ani">
+                            <img src="./img/main/sec5/img4.png" alt="" class="sec5_img img">
+                        </div>
+                    </div>
+                </section>
+                <section class="sec6 ani">
+                    <div class="inner">
+                        <p class="title">엔알텍 영상소개</p>
+                        <div class="sec6_div">
+                            <div class="item">
+                                <div class="videoBox videoBox1">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4HLBT6D7YFA" title="원적외선 복사파 도장건조 설비 (WSD)_고객사 인터뷰 영상 - 유압실린더 제조업체 (S사)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                                <p class="text_1">
+                                    원적외선 복사파 도장건조 설비 (WSD)_고객사 인터뷰 영상 <br>
+                                    유압실린더 제조업체 (S사)
+                                </p>
+                            </div>
+                            <div class="item">
+                                <div class="videoBox videoBox2">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kw4qSwIFVIc" title="All 제조산업 &#39;도장 건조시간 단축&#39; 비결 200% 공개 : &quot;원적외선 복사파 도장건조 설비&quot; 분야 국내 최대 규모 기업 - (원가/불량율/탄소)절감!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                                <p class="text_1">
+                                    All 제조산업 '도장 건조시간 단축' 비결 200% 공개 : <br>
+                                    "원적외선 복사파 도장건조 설비" 분야 국내 최대 규모 기업 <br>
+                                    (원가/불량율/탄소)절감!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec7 ani">
+                    <div class="inner">
+                        <p class="title">
+                            '분체/액체도장건조 솔루션'을 위한 첫걸음,<br>
+                            엔알텍에서 시작하세요!
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="tel:055-720-7056">
+                                    <div class="item">
+                                        <img src="./img/main/sec7/img1.png" alt="" class="sec7_img img">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://nrtec.co.kr/" target="_blank">
+                                    <div class="item">
+                                        <img src="./img/main/sec7/img2.png" alt="" class="sec7_img img">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div class="inner">
+                <img src="./img/footer/logo.png" alt="푸터로고" class="footer_logo">
+                <ul>
+                    <li>엔알텍 주식회사</li>
+                    <li>(우) 50849 경상남도 김해시 한림면 가동로 9-24</li>
+                    <li>Tel. 055-720-7056</li>
+                    <li>Fax : 055-313-0039</li>
+                    <li>E-mail : mastera@nrtec.co.kr</li>
+                </ul>
+                <p class="copyright">© NRTEC Co., Ltd. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
