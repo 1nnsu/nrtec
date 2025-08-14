@@ -34,25 +34,27 @@ section.sec2 .sec2_div ul li { opacity: 0; }
 section.sec2.on .sec2_div ul li:nth-of-type(3) { animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
 
 section.sec3 .title { opacity: 0; }
-section.sec3.on .title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+section.sec3 .title.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;}
+
+
 /* section.sec3 ul { opacity: 0; }
 section.sec3.on ul { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; } */
 section.sec3 ul li:nth-of-type(1) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(1) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(1) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(2) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(2) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(2) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(3) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(3) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(3) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(4) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(4) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(4) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(5) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(5) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(5) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(6) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(6) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(6) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(7) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(7) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(7) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 section.sec3 ul li:nth-of-type(8) .item { opacity: 0; }
-section.sec3 ul li:nth-of-type(8) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;  }
+section.sec3 ul li:nth-of-type(8) .item.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;  }
 
 section.sec4 .sec4_div .item { opacity: 0; }
 section.sec4.on .sec4_div .item { animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; }
@@ -61,21 +63,25 @@ section.sec4.on .sec4_div ul { animation: fadeInRight 0.5s ease-in-out 0s 1 forw
 section.sec4 .sec4_img2 { opacity: 0; }
 section.sec4.on .sec4_img2 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
 
-section.sec5 .item .text_1 { opacity: 0; }
-section.sec5 .item.on .text_1:nth-of-type(1) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec5 .item .text_1 { opacity: 0; }
-section.sec5 .item.on .text_1:nth-of-type(2) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec5 .item .imgBox { opacity: 0; }
-section.sec5 .item.on .imgBox:nth-of-type(1) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
-section.sec5 .item .imgBox { opacity: 0; }
-section.sec5 .item.on .imgBox:nth-of-type(3) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+
+
+section.sec5 .item .text_1:nth-of-type(1) { opacity: 0; }
+section.sec5 .item.on .text_1:nth-of-type(1) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+section.sec5 .item .imgBox:nth-of-type(1) { opacity: 0; }
+section.sec5 .item.on .imgBox:nth-of-type(1) { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+section.sec5 .item .sec5_img4 { opacity: 0; }
+section.sec5 .item.on .sec5_img4 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.3s; }
+section.sec5 .item .sec5_img5 { opacity: 0; }
+section.sec5 .item.on .sec5_img5 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.4s; }
 
 section.sec6 .title { opacity: 0; }
-section.sec6.on .title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
-section.sec6 .sec6_div .item { opacity: 0; }
-section.sec6.on .sec6_div .item:nth-of-type(1) { animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; }
-section.sec6 .sec6_div .item { opacity: 0; }
-section.sec6.on .sec6_div .item:nth-of-type(2) { animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s; }
+section.sec6 .title.on { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;}
+section.sec6 .sec6_div .item1 { opacity: 0; }
+section.sec6 .sec6_div.on .item1 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; animation-delay: 0.2s;}
+section.sec6 .sec6_div .item2 { opacity: 0; }
+section.sec6 .sec6_div.on .item2 { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running;animation-delay: 0.3s;}
+
+
 
 section.sec7 .title { opacity: 0; }
 section.sec7.on .title { animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }

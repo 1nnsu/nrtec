@@ -213,7 +213,7 @@ section.sec3 ul li .item .text_2 { font-size: 15px; font-weight: 700; line-heigh
     section.sec3 { padding: 15vw 0; }
 }
 @media screen and (max-width: 500px) {
-    section.sec3 ul { max-width: 400px; margin: 0 auto; }
+    section.sec3 ul { max-width: 400px; width: 100%; margin: 0 auto; }
     section.sec3 ul li {  width: calc(100%/1);}
     section.sec3 ul li .item .text_1 { font-size: 18px; }
     section.sec3 ul li .item .text_2 { font-size: 16px; }
@@ -265,14 +265,26 @@ section.sec4 .sec4_img2.mo { display: none; }
 section.sec5 { padding: 100px 0; background: var(--white-color) url(../img/main/sec5/bg.jpg) no-repeat center / cover; }
 section.sec5 .inner { display: flex; flex-direction: column; gap: 45px; }
 section.sec5 .sec5_title { padding: 13px 50px; width: fit-content; margin: 0 auto; font-size: 36px; font-weight: 700; font-family: 'Paperlogy'; text-align: center; background-color: #222; color: #fff; }
+section.sec5 .sec5_title .mo_br { display: none; }
+section.sec5 .sec5_title .mo_br2 { display: none; }
 section.sec5 .sec5_title .yellow { color: #F5C918; }
 section.sec5 .item { text-align: center; }
 section.sec5 .item .text_1 { font-size: 26px; font-weight: 700; font-family: 'Paperlogy'; margin-bottom: 25px; }
 section.sec5 .item .imgBox { padding: 40px 10px; border: 4px solid #173E91; background-color: var(--white-color); border-radius: 5px;  }
 section.sec5 .item .imgBox .sec5_img {  }
-
+section.sec5 .item .sec5_img.mo { display: none; } 
 @media screen and (max-width: 1250px) {
+    section.sec5 .sec5_title { font-size: 32px; }
     section.sec5 .item .text_1 { font-size: 22px; }
+}
+@media screen and (max-width: 950px) {
+    section.sec5 .sec5_title { line-height: 1.5; word-break: keep-all; }
+    section.sec5 .sec5_title .mo_br { display: block;}
+}
+@media screen and (max-width: 720px) {
+    section.sec5 .sec5_title { width: 100%; }
+    section.sec5 .item .sec5_img.pc { display: none; }
+    section.sec5 .item .sec5_img.mo { display: block; } 
 }
 @media screen and (max-width: 650px) {
     section.sec5 { padding: 15vw 0; }
@@ -280,6 +292,8 @@ section.sec5 .item .imgBox .sec5_img {  }
     section.sec5 .item .text_1 { font-size: 4vw; margin-bottom: 15px; }
 }
 @media screen and (max-width: 500px) {
+    section.sec5 .sec5_title { padding: 10px 15px; font-size: 24px; }
+    section.sec5 .sec5_title .mo_br2 { display: block;}
     section.sec5 .item:nth-child(1) .imgBox .sec5_img { width: 80%; }
     section.sec5 .item .imgBox { padding: 15px; }
     section.sec5 .inner { gap: 8vw; }
@@ -333,7 +347,7 @@ section.sec7 ul li .item .sec7_img {  }
 }
 @media screen and (max-width: 650px) {
     section.sec7 .title { font-size: 24px; margin-bottom: 25px; }
-    section.sec7 ul { gap: 10px; }
+    section.sec7 ul { gap: 10px; flex-direction: column; }
 }
 @media screen and (max-width: 500px) {
     section.sec7 .title { font-size: 5.8vw; }
